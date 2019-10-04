@@ -80,27 +80,28 @@ button {
     width: 800px;
     margin: auto;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-end;
     
-    border: gray solid 2px;
 }
 
 .lambda-logo {
-    border: blue solid 2px;
+    
 }
 
 .nav {
+    width: 550px;
     display: flex;
     justify-content: space-between;
-    width: 850px;
     text-decoration: none;
-    border: black 2px solid;
-    margin: 0 20%;
+    
+    
 }
 
 .nav a{
-    border: green solid 2px;
-    margin: 0 5%;
+    text-decoration: none;
+    color: black;
+    vertical-align: text-bottom;
 }
 
 .jumbo-img {
@@ -122,15 +123,23 @@ button {
 /* ABOUT leverage paragraph under splash */
 
 .leverage {
-    width: 800px;
-    margin: 2% 25.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 14%;
     
+}
+
+.break-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-break {
     border-bottom: black 1px dashed;
     width: 800px;
-    margin: 2% 25.5%;
+    margin: 2% 14.5%;
 }
 
 /* INDEX middle content */
