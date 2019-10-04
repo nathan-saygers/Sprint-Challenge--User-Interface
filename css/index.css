@@ -53,6 +53,8 @@ table {
 
 html, body {
     height: 100%;
+    width: 100%;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -66,8 +68,199 @@ p {
     line-height: 1.4;
 }
 
-.container {
+button {
+    margin: 1.5% 0;
+    border-radius: 10px;
+    padding: 2% 5%;
+    border: black 1.5px solid;
+    margin: 2.5% 0;
+}
+
+/* INDEX Nav and logo*/
+
+.nav-wrapper {
+    display: flex;
     width: 800px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.lambda-logo {
+    
+}
+
+.nav {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    vertical-align: text-bottom;
+}
+
+.jumbo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+
+/* Box Section */
+
+.box1 {
+        width: 12.5%;
+        height: 100px;
+        background: teal;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.box2 {
+        width: 12.5%;
+        height: 100px;
+        background: gold;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box3 {
+    width: 12.5%;
+        height: 100px;
+        background: cadetblue;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box4 {
+    width: 12.5%;
+        height: 100px;
+        background: coral;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box5 {
+    width: 12.5%;
+        height: 100px;
+        background: crimson;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box6 {
+    width: 12.5%;
+        height: 100px;
+        background: forestgreen;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box7 {
+    width: 12.5%;
+        height: 100px;
+        background: darkorchid;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box8 {
+    width: 12.5%;
+        height: 100px;
+        background: hotpink;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box9 {
+    width: 12.5%;
+        height: 100px;
+        background: indigo;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box10 {
+    width: 12.5%;
+        height: 100px;
+        background: dodgerblue;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+/* ABOUT nav and splash */
+
+.jumbo-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+
+/* ABOUT leverage paragraph under splash */
+
+.leverage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 14%;
+    
+}
+
+.break-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-break {
+    border-bottom: black 1px dashed;
+    width: 800px;
+    margin: 2% 14.5%;
+}
+
+/* INDEX middle content */
+
+.container {
+    width: 850px;
     margin: 0 auto;
 }
 
@@ -126,6 +319,28 @@ p {
     padding-right: 0;
 }
 
+/* ABOUT main content */
+
+
+
+.container-about-page {
+    width: 850px;
+    margin: 2% 10.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.about-page-content {
+    border-bottom: black 1px dashed;
+    width: 385px;
+    margin: 1% 0;
+    padding: 1%;
+}
+
+/* Footer Section (pre-made)*/
 footer {
     width: 100%;
     background: black;
@@ -144,3 +359,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
