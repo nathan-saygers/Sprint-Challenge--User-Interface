@@ -213,7 +213,7 @@ button {
 
 .container-about-page {
     width: 850px;
-    margin: 2% 14.5%;
+    margin: 2% 10.5%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
