@@ -70,7 +70,10 @@ p {
 
 button {
     margin: 1.5% 0;
-
+    border-radius: 10px;
+    padding: 2% 5%;
+    border: black 1.5px solid;
+    margin: 2.5% 0;
 }
 
 /* INDEX Nav and logo*/
@@ -206,13 +209,16 @@ button {
 
 /* ABOUT main content */
 
+
+
 .container-about-page {
     width: 850px;
-    margin: 2% 23.5%;
+    margin: 2% 14.5%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
+    
 }
 
 .about-page-content {
