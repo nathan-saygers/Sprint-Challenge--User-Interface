@@ -68,7 +68,7 @@ p {
     line-height: 1.4;
 }
 
-/* Nav and logo*/
+/* INDEX Nav and logo*/
 
 .nav-wrapper {
     display: flex;
@@ -76,7 +76,7 @@ p {
     margin: auto;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
+    
     border: gray solid 2px;
 }
 
@@ -105,7 +105,30 @@ p {
     margin: 2% 0;
 }
 
-/* middle content */
+/* ABOUT nav and splash */
+
+.jumbo-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+
+/* ABOUT leverage paragraph under splash */
+
+.leverage {
+    width: 800px;
+    margin: 2% 25.5%;
+    
+}
+
+.page-break {
+    border-bottom: black 1px dashed;
+    width: 750px;
+    margin: 2% 27%;
+}
+
+/* INDEX middle content */
 
 .container {
     width: 800px;
@@ -167,6 +190,9 @@ p {
     padding-right: 0;
 }
 
+/* ABOUT main content */
+
+
 
 /* Footer Section (pre-made)*/
 footer {
@@ -187,3 +213,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
