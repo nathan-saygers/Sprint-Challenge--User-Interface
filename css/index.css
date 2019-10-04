@@ -68,6 +68,11 @@ p {
     line-height: 1.4;
 }
 
+button {
+    margin: 1.5% 0;
+
+}
+
 /* INDEX Nav and logo*/
 
 .nav-wrapper {
@@ -87,7 +92,7 @@ p {
 .nav {
     display: flex;
     justify-content: space-between;
-    width: 700px;
+    width: 850px;
     text-decoration: none;
     border: black 2px solid;
     margin: 0 20%;
@@ -124,14 +129,14 @@ p {
 
 .page-break {
     border-bottom: black 1px dashed;
-    width: 750px;
-    margin: 2% 27%;
+    width: 800px;
+    margin: 2% 25.5%;
 }
 
 /* INDEX middle content */
 
 .container {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
 }
 
@@ -192,7 +197,21 @@ p {
 
 /* ABOUT main content */
 
+.container-about-page {
+    width: 850px;
+    margin: 2% 23.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
+.about-page-content {
+    border-bottom: black 1px dashed;
+    width: 385px;
+    margin: 1% 0;
+    padding: 1%;
+}
 
 /* Footer Section (pre-made)*/
 footer {
