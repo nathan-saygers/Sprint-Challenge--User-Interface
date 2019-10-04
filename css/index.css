@@ -53,6 +53,8 @@ table {
 
 html, body {
     height: 100%;
+    width: 100%;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -65,6 +67,45 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* Nav and logo*/
+
+.nav-wrapper {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: gray solid 2px;
+}
+
+.lambda-logo {
+    border: blue solid 2px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    text-decoration: none;
+    border: black 2px solid;
+    margin: 0 20%;
+}
+
+.nav a{
+    border: green solid 2px;
+    margin: 0 5%;
+}
+
+.jumbo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+
+/* middle content */
 
 .container {
     width: 800px;
@@ -126,6 +167,8 @@ p {
     padding-right: 0;
 }
 
+
+/* Footer Section (pre-made)*/
 footer {
     width: 100%;
     background: black;
